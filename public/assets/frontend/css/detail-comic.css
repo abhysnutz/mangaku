@@ -1,0 +1,143 @@
+h1.titles {
+    line-height: 25px;
+}
+
+#wrapper-a {
+    margin-left: 200px
+}
+
+#content-a {
+    text-align: left;
+    float: right;
+    width: 98%
+}
+
+#sidebar-a {
+    height: 275px;
+    text-align: left;
+    float: left;
+    width: 200px;
+    margin-left: -200px
+}
+
+#cleared {
+    clear: both
+}
+
+#wrapper-b {
+    margin-right: 320px
+}
+
+#content-b {
+    text-align: left;
+    font-size: 16px;
+    float: left;
+    width: 98.5555%
+}
+
+#sidebar-b {
+    float: right;
+    width: 320px;
+    margin-right: -320px
+}
+
+span.inf {
+    color: #ccc;
+    display: block;
+    font-size: 13px;
+    font-weight: bold
+}
+
+span.inf span.infx {
+    color: #ccc;
+    width: 125px;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold
+}
+
+span.inf p {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    width: 80%
+}
+
+.obv {
+    overflow: hidden;
+    height: 75px
+}
+
+.obv:hover {
+    overflow: auto
+}
+
+.fndsosmed-social {
+    text-align: left;
+    float: left;
+}
+
+#sidebar-b iframe,
+#sidebar-b img,
+#sidebar-b div {
+    text-align: center;
+    margin: 0 auto !important;
+    width: 300px;
+}
+
+.ikctr {
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.ikctr .mn-related-container {
+    margin: 0 auto
+}
+
+#content-b a:visited {
+    color: #50e3fb !important
+}
+
+#content-a:hover .obv {
+    overflow: auto;
+}
+
+a[rel~="tag"]:visited {
+    color: #50E3FB !important;
+}
+
+span.inf p {
+    word-wrap: break-word;
+}
+
+.mgk-a a {
+    color: #fff
+}
+
+.alx {
+    overflow: hidden;
+    max-height: 3em;
+}
+
+#sidebar-a img {
+    height: 275px;
+    padding: 0
+}
+
+@keyframes blinker3 {
+    to {
+        opacity: .4;
+    }
+}
+
+.nctr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}

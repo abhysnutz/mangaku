@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /console/
+Disallow: /login
+
+Sitemap: https://sagemanga.com/sitemap.xml

@@ -1,0 +1,390 @@
+html body {
+	background: #000;
+}
+
+h1.titles {
+	line-height: 25px;
+}
+
+.lds-ring-ct {
+	position: relative;
+	width: 55px;
+	height: 55px;
+	text-align: center;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 10px
+}
+
+.lds-ring-ct div {
+	box-sizing: border-box;
+	display: block;
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	margin: 6px;
+	border: 6px solid #00ace6;
+	border-radius: 50%;
+	animation: lds-ring-ct 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+	border-color: #00ace6 transparent transparent transparent
+}
+
+.lds-ring-ct div:nth-child(1) {
+	animation-delay: -0.45s
+}
+
+.lds-ring-ct div:nth-child(2) {
+	animation-delay: -0.3s
+}
+
+.lds-ring-ct div:nth-child(3) {
+	animation-delay: -0.15s
+}
+
+@keyframes lds-ring-ct {
+	0% {
+		transform: rotate(0deg)
+	}
+
+	100% {
+		transform: rotate(360deg)
+	}
+}
+
+a.previous-post,
+a.next-post {
+	color: #fff;
+	text-align: center;
+	line-height: 34px;
+	font-size: 14px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-weight: bold
+}
+
+a.previous-post {}
+
+a.next-post {
+	float: right !important
+}
+
+img.prnv {
+	height: 10px
+}
+
+.npnp {
+	display: block;
+	border-bottom: 1px solid #686868;
+}
+
+button.view {
+	font-size: 1em;
+}
+
+.ctr {
+	display: flex;
+}
+
+.ctr>div {
+	flex: 1;
+}
+
+.fndsosmed-social {
+	width: 100%;
+}
+
+.aup {
+	text-align: right;
+	float: right;
+	padding-top: 10px;
+}
+
+span.mgk-a.aup {
+	font-size: 13px;
+}
+
+.sURNPDfJAlmp {
+	text-align: center;
+	margin-top: 10px;
+	line-height: 21px
+}
+
+.sURNPDfJAlmp .separator {
+	margin: 0 auto !important;
+}
+
+.sURNPDfJAlmp .separator a {
+	margin: 0 !important
+}
+
+.sURNPDfJAlmp img {
+	padding: 0;
+	display: block;
+	margin-bottom: 0;
+	pointer-events: none !important;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+	text-align: center;
+	-webkit-transition-duration: .3s;
+	-moz-transition-duration: .3s;
+	-o-transition-duration: .3s;
+	transition-duration: .3s;
+	max-width: 100%;
+}
+
+.singlep,
+.post {
+	padding: 0;
+	background: #000
+}
+
+#contentwrap {
+	clear: both;
+	float: none;
+	width: 115%;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.section_ad {
+	max-width: 1000px;
+}
+
+.fndsosmed-social {
+	max-width: 1000px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.post h1.titles {
+	text-align: center;
+}
+
+.section_ad {
+	padding-bottom: 2px;
+}
+
+.singlep {
+	min-height: 100vh;
+}
+
+::-moz-selection {
+	background-color: transparent
+}
+
+::selection {
+	background-color: transparent
+}
+
+* {
+	-webkit-touch-callout: none !important;
+	-webkit-user-select: none !important;
+	-khtml-user-select: none !important;
+	-moz-user-select: none !important;
+	-ms-user-select: none !important;
+	user-select: none !important;
+}
+
+.sURNPDfJAlmp {
+	min-height: 100vh;
+}
+
+.sURNPDfJAlmp img[data-src] {
+	display: block;
+	min-height: 100vh;
+}
+
+.sURNPDfJAlmp div:hover {
+	cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MzgzODcwNEU0QjU5MTFFQjhENUFGQjg1MzcxRjQ3RjYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MzgzODcwNEY0QjU5MTFFQjhENUFGQjg1MzcxRjQ3RjYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozODM4NzA0QzRCNTkxMUVCOEQ1QUZCODUzNzFGNDdGNiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozODM4NzA0RDRCNTkxMUVCOEQ1QUZCODUzNzFGNDdGNiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PugHLhUAAAT4SURBVHjalJZ5bFRVFMZ/b+bN0kKhZSm0WMtWxBJbpSUglVARgkFiSUxc/iCIlkUoBQWFAiIJka1iBRQ1YqJEBYNR6cKSqkBogcYawBIDyFaKFAulFdrOPtcz89ppJ3T+4CV33uSde79zzne+c97TEovaaHLpYLUQupQslzMRTfsciy0bDT34XDNMWsce8OJ01RQ8ZZ6XlqTXYOqEEAtmnw8tbouLpvp/4NqJTqPFFkXK1HJ0axZXKsDZbCCq9qWJC03QLFEweIIgWS5x4Zfxsq8hhJGQjp4wAvpslwOv7CXsGpQxiQ98Spu2WbXHGnmNna8oEq9pL84Nw3h2E7YPVWfqYVdscl90ifBcGfQcAC98aUSt2u2B/boVypbB+bIgHcQN7R+GIfsDR3Tc7jSSxuYzq2RgyNgrcRA+wdPMUpse8OhzBmhXB4LP0Xih7z9xIIbM2bMYnPVkCKPfiGbB3qmj/MXYeyfz0Bg515GKD9UkdHpd8lfCczsMzpXqdKDsYneDX+xNtWi2nikSaEqo/iYhx++foWO2xnC3Fr6YCJ5WAfQYwB0hD58sxZRwvZ5wlQUUEz8SrhyFzUMMdZlFibrd2DNzH4zMtpujJhdEOaIHZtN2By79Fqw+ma9C4hNow5+BSe+CvZdEo8Lr5PfDw+PQAraBj8GwbFGTBHLrHKTmwMRl6H73bq1PYZvtjttWid+ZwbYMyaIN3jwLMTFG8TxSDJ+7GyUog4ZA/wSyEX9sHwe3/4Ylp6F30k273zHaJJtcNNcuES0rcj6G5mvw41wD3OU0KLsPvL0QfnHudBiUHZRM66pEnhtFUUnQeGk5JnO9CYtEcLWygiObPyVdKMl8Dc7sgRrh0GbvIp3uLrFZpdnqTsGRDTBUaJowB6q/OUTND7uwWtubO6Dpw++vou7iVaYXCj2i2NLF0NoU6NLI+CaToaLifENlMz6RM3db2P92XjC7di3IrzjwOJrZl59PbB+Y/lFQepSvlQj1yNHbbHDyM2FAxsmkNZJBKuxf/R4tNy9iie7ioIOG8wdKqNy1h3EvSXM9D8e3wcVj3VClAvNKFHMZDq0UFaXBlBVCa0UVVTu2dsU03RfYwRVLaWxoJEfArT0l/UVGo5nMYWMgSE/pUhHCPaFmRwDPQ0n+QqHGF8ZiS0AkTm/nk3v1N9j9xnL6J4si1kP9GTi2RbKwds64QEanv4e/fobxefBIFvy06kNunPojhOPw4BRs7eUSRct5GdVH1ocl8mfGpvJr0amT2SGHr1fDIjk7YJQhTYc05dbHDQEsOUuMxXthYvX80TIJWkOSHpOLJT0nMF5Ut2vBmqKRvNPQyuLTShSiGPa0YoNPUSjGMblGKjP3Kdb5VeGv/06JhGOKpEDv1RPnOFCwjhQZHdkFMkYOw6lv4fJx+H0npIkQMkUIFVu/ynRVlkdulQie5855PfhuY8HJaja6FPGpiuh+irghih5yX31DsbKuHkuv/gfLinngDNCC+vdQnLcQs+4jR5qo7bb0xxWYKuMgPgFK3lqK5+4tdFvkXoxo8TqM+/XqKkpXFzFKxkDGbEiWomdJdse+LqVm73fG68MbEUaPaMnMhYYsY4clai33nNNkkKVKx0tfeBuxxeYxQ7rYL6pJSHtwB5aUCdiz5IvBFhzFrdJsucTE7UXr20PeZPNIz6nFbHyemGIjj6v/BRgAYX8VSwLDY/wAAAAASUVORK5CYII="), auto;
+}
+
+img.lazy {
+	width: 50vw;
+	background: #eee url('https://mangaku.fun/wp-content/themes/FlexorMagazine/images/ldpg.gif') no-repeat center center;
+
+}
+
+.section_ad a {
+	margin: 0 auto !important;
+}
+
+.section_ad {
+	padding: 0;
+	margin-bottom: -5px
+}
+
+canvas {
+	padding: 0;
+	display: block;
+	margin-bottom: 0;
+	pointer-events: none !important;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+	text-align: center;
+	-webkit-transition-duration: .3s;
+	-moz-transition-duration: .3s;
+	-o-transition-duration: .3s;
+	transition-duration: .3s;
+	max-width: 100%;
+}
+
+.yp6_desktop_classic.my6_wrap .yp6_desktop_classic.my6_item_title:not(.my6_text_ellipsis_js) {
+	color: #fff !important;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.glho {
+	width: 80px;
+	height: 30px;
+	border: 2px solid #06f;
+	outline: 0;
+	color: #fff;
+	background: #111;
+	cursor: pointer;
+	position: relative;
+	z-index: 0;
+	font-weight: 700;
+	text-align: center;
+	border-radius: 50px;
+	margin-right: 5px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none
+}
+
+.glho::before {
+	content: '';
+	background: linear-gradient(45deg, red, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, red);
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	background-size: 400%;
+	z-index: -1;
+	filter: blur(1px);
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	animation: glowing 20s linear infinite;
+	opacity: 0;
+	transition: opacity .3s ease-in-out;
+	border-radius: 50px
+}
+
+.glho:hover,
+.glho:active {
+	color: #06f
+}
+
+.glho:active::after {
+	background: #000;
+}
+
+.glho:hover::before {
+	opacity: 1;
+}
+
+.glho::after {
+	z-index: -1;
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #111;
+	left: 0;
+	top: 0;
+	border-radius: 50px
+}
+
+@keyframes glowing {
+	0% {
+		background-position: 0 0;
+	}
+
+	50% {
+		background-position: 400% 0;
+	}
+
+	100% {
+		background-position: 0 0;
+	}
+}
+
+button.glkn_1 i::before {
+	color: #06f
+}
+
+button.glkp_1 i::before {
+	color: #06f
+}
+
+.glho:hover i::before,
+.glho:active i::before {
+	color: #fff
+}
+
+select#pilihchapter {
+	background: inherit;
+	color: #fff;
+	border: none;
+	outline: 0;
+	width: 90%;
+	font-weight: 700;
+	cursor: pointer;
+	cursor: hand;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none
+}
+
+select#pilihchapter option:hover {
+	color: #fff;
+}
+
+select#pilihchapter::-ms-expand {
+	display: none;
+}
+
+select#pilihchapter:hover,
+select#pilihchapter:active {
+	cursor: pointer;
+	cursor: hand;
+}
+
+select#pilihchapter option.ddbs:disabled {
+	color: #4088f5;
+}
+
+.notIE {
+	background: inherit;
+	width: auto;
+	border-radius: 100%;
+}
+
+.notIE .genrearrow {
+	width: 23px;
+	height: 23px;
+	position: absolute;
+	display: inline-block;
+	top: -2px;
+	right: 8px;
+	background: url(https://mangaku.fun/wp-content/themes/FlexorMagazine/images/arrow-down-tag.png) right/90% no-repeat;
+	background-size: 65%;
+	pointer-events: none
+}
+
+.fndsosmed-social {
+	margin-bottom: 5px;
+}
+
+code,
+pre {
+	font-size: 20px;
+	line-height: 25px;
+	overflow: hidden;
+}

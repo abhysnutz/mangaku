@@ -1,0 +1,307 @@
+form.searchh input[type="text"] {
+    width: 80% !important
+}
+
+form.searchh button {
+    width: 10% !important
+}
+
+form.searchh button,
+form.searchh input[type="text"] {
+    padding: 10px !important;
+}
+
+h1.titles {
+    line-height: 25px;
+}
+
+#wrapper-a {
+    margin-left: 150px
+}
+
+#content-a {
+    height: 152px;
+    text-align: left;
+    float: right;
+    width: 97%;
+    border-right: 10px solid #000;
+    background: #222;
+}
+
+#sidebar-a {
+    text-align: left;
+    float: left;
+    width: 140px;
+    margin-left: -140px
+}
+
+#cleared {
+    clear: both
+}
+
+#wrapper-b {
+    margin-right: 320px
+}
+
+#content-b {
+    text-align: left;
+    font-size: 16px;
+    float: left;
+    width: 98.5555%
+}
+
+#sidebar-b {
+    float: right;
+    width: 320px;
+    margin-right: -320px
+}
+
+span.inf {
+    color: #ccc;
+    display: block;
+    font-size: 13px;
+    font-weight: bold
+}
+
+span.inf span.infx {
+    color: #ccc;
+    width: 125px;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold
+}
+
+span.inf p {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    width: 80%
+}
+
+.obv {
+    overflow: hidden;
+    height: 75px
+}
+
+.obv:hover {
+    overflow: auto
+}
+
+.fndsosmed-social {
+    text-align: left;
+    float: left;
+}
+
+#sidebar-b iframe,
+#sidebar-b img,
+#sidebar-b div {
+    text-align: center;
+    margin: 0 auto !important;
+    width: 300px;
+}
+
+.ikctr {
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.ikctr .mn-related-container {
+    margin: 0 auto
+}
+
+#content-b a:visited {
+    color: #50e3fb !important
+}
+
+.bsr {
+    font-size: 20px;
+    height: 30px;
+    line-height: 18px;
+    color: #fff;
+    font-weight: bold;
+    padding-bottom: 8px;
+    display: block;
+}
+
+.bsr a:visited {
+    color: #50E3FB;
+}
+
+.ctr {
+    text-align: right;
+    padding-left: 10px;
+}
+
+.hr {
+    border-top: 2px solid #333;
+    margin-top: 5px;
+}
+
+.ord {
+    font-size: 2em;
+    color: #fff;
+}
+
+button.viewac {
+    background: #fff;
+    color: #000;
+    border: 1px solid #08f;
+}
+
+.listupd {
+    padding: 0;
+}
+
+.bs .bsx {
+    background: #161414;
+}
+
+.bs .bsx .tt {
+    font-size: 16px;
+}
+
+.epxs {
+    font-size: 13px;
+    margin-top: 5px;
+    color: #ddd;
+}
+
+.bs .bsx .limit {
+    padding: 0;
+    height: 257px;
+    border: 1px solid #08f;
+}
+
+.bs .bsx .limit img {
+    height: 257px;
+}
+
+.nos {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+a[rel~="tag"]:visited {
+    color: #50E3FB !important;
+}
+
+span.inf p {
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 2.4em;
+    line-height: 1.2em;
+}
+
+.notIE {
+    width: 30%;
+    position: relative;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    float: left
+}
+
+select {
+    display: inline-block;
+    height: 30px;
+    width: 100%;
+    padding: 2px 10px 2px 2px;
+    outline: 0;
+    color: #fff;
+    border: 1px solid rgba(0, 126, 255, 0.72);
+    font-weight: 700;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    cursor: pointer;
+    cursor: hand;
+    background: #333;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+select option:hover {
+    color: #fff
+}
+
+select::-ms-expand {
+    display: none
+}
+
+.notIE .genrearrow {
+    width: 23px;
+    height: 28px;
+    position: absolute;
+    display: inline-block;
+    top: 1px;
+    right: 3px;
+    background: url(https://mangaku.fun/wp-content/themes/FlexorMagazine/images/arrow-down-tag.png) right/90% no-repeat;
+    pointer-events: none
+}
+
+img.lazy {
+    background: url(https://mangaku.fun/wp-content/themes/FlexorMagazine/images/lddft4-i.gif) no-repeat center;
+}
+
+img.lazy-hidden {
+    background: url(https://mangaku.fun/wp-content/themes/FlexorMagazine/images/lddft4-i.gif) no-repeat center;
+}
+
+.pagination {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.pagination a {
+    display: inline-block;
+    color: white;
+
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #004eff;
+    margin: 0 4px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.pagination a.active {
+    background-color: #1E00FF;
+    color: white;
+    border: 1px solid #FFF;
+}
+
+a[disabled] {
+    pointer-events: none;
+    cursor: default;
+
+}
+
+a.tkk {
+    pointer-events: none;
+    cursor: default;
+    padding: 8px 12px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+#hal {
+    width: 80%;
+}
+
+.cgarisbw {
+    border-bottom: 2px solid #313131;
+    background: #000;
+}

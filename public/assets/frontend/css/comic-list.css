@@ -1,0 +1,218 @@
+.entry {
+    text-align: left;
+}
+
+.entry li {
+    list-style: none
+}
+
+.dftmgk {
+    display: block;
+    vertical-align: top;
+    width: 100%;
+    margin: 0
+}
+
+.dftmgk .npx {
+    overflow: hidden;
+    line-height: 21px;
+    padding: 5px;
+    font-size: .8rem;
+    margin-bottom: 1.1em;
+}
+
+.dftmgk .npx .hrff {
+    background: url('../img/239439776ad4764c7ad728c0-1-min.png') no-repeat center center;
+    background-size: 100% 100%;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: #fff
+}
+
+.dftmgk .npx ul {
+    color: #fff;
+    padding-left: 5px;
+    margin-bottom: 0 auto;
+    font-weight: 700;
+    font-size: 15px;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+    padding-left: 0;
+}
+
+a.tooltip:hover span,
+a.tooltip:focus span,
+a.tooltip:active span {
+    width: 300px;
+}
+
+img.lazy {
+    background: url(https://mangaku.fun/wp-content/themes/FlexorMagazine/images/lddft4.gif) no-repeat center;
+}
+
+.entry li.an {
+    margin-left: 1.5em;
+    width: 100%;
+    list-style-position: inside;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+li.an:before {
+    content: "\f0da";
+    font-family: FontAwesome;
+    display: inline-block;
+    width: 10px;
+    margin-left: -10px;
+}
+
+.ratings {
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    color: #ccc;
+    overflow: hidden
+}
+
+.full-stars {
+    position: absolute;
+    left: 0;
+    top: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #fc0
+}
+
+.empty-stars:before,
+.full-stars:before {
+    content: "\2605\2605\2605\2605\2605";
+    font-size: 11pt
+}
+
+.empty-stars:before {
+    -webkit-text-stroke: 1px #ccc;
+    -moz-text-stroke: 1px #ccc
+}
+
+.full-stars:before {
+    -webkit-text-stroke: 1px #fc0;
+    -moz-text-stroke: 1px #fc0
+}
+
+@-moz-document url-prefix() {
+    .full-stars {
+        color: #fc0
+    }
+}
+
+< !--[if IE]>.full-stars {
+    color: #fc0
+}
+
+< ![endif]-->img.lazy-hidden {
+    background: url(https://mangaku.fun/wp-content/themes/FlexorMagazine/images/lddft4.gif) no-repeat center;
+}
+
+a[rel~="tag"]:visited {
+    color: #50E3FB !important;
+}
+
+.notIE {
+    width: 30%;
+    position: relative;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    float: right
+}
+
+select {
+    display: inline-block;
+    height: 30px;
+    width: 100%;
+    padding: 2px 10px 2px 2px;
+    outline: 0;
+    color: #fff;
+    border: 1px solid rgba(0, 126, 255, 0.72);
+    font-weight: 700;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    cursor: pointer;
+    cursor: hand;
+    background: #333;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+select option:hover {
+    color: #fff
+}
+
+select::-ms-expand {
+    display: none
+}
+
+.notIE .genrearrow {
+    width: 23px;
+    height: 28px;
+    position: absolute;
+    display: inline-block;
+    top: 1px;
+    right: 3px;
+    background: url(https://mangaku.fun/wp-content/themes/FlexorMagazine/images/arrow-down-tag.png) right/90% no-repeat;
+    pointer-events: none
+}
+
+a.tooltip:hover>span,
+a.tooltip:focus>span,
+a.tooltip:active>span {
+    display: none;
+}
+
+.qtip-default {
+    color: #fff;
+    border: 1px solid #06f;
+    background: #222;
+    -webkit-user-select: none;
+    max-width: 300px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 4px 2px #666;
+}
+
+.qtip-content strong {
+    line-height: 16px;
+    color: #06f;
+    text-align: center;
+    text-shadow: none;
+}
+
+.qtip-content {
+    font: 13px/1.2 'Ubuntu', Helvetica, Arial, sans-serif;
+    padding: 2px 4px;
+}
+
+.gbrhv {
+    width: 100%;
+    height: 170px;
+}
+
+.qtip .qtip-tip,
+.qtip .qtip-tip .qtip-vml,
+.qtip .qtip-tip canvas {
+    color: #fff;
+    background: #fff;
+}
+
+#hurufbawah {
+    display: none;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    margin: 0 auto;
+    width: 100%;
+}
